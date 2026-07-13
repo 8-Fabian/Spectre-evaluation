@@ -4,6 +4,7 @@ Evaluation of Spectre attack
 ## Projekt bauen
 ```
 cmake -B build
+mkdir output
 cd build
 make
 ```
