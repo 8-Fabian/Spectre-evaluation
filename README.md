@@ -2,8 +2,8 @@
 Evaluation of Spectre attack
 
 ## Prozessorkern isolieren
-==/etc/default/grub== öffnen
-==isolcpus=kerne== zu GRUB_CMDLINE_LINUX hinzufügen (https://docs.kernel.org/admin-guide/kernel-parameters.html)
+<mark>/etc/default/grub</mark> öffnen
+<mark>isolcpus=kerne</mark> zu GRUB_CMDLINE_LINUX hinzufügen (https://docs.kernel.org/admin-guide/kernel-parameters.html)
 ```
 sudo update-grub
 reboot
