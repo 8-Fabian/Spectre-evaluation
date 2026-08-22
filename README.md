@@ -10,7 +10,7 @@ reboot
 ```
 
 ## Voraussetzung
-cmake und nasm\
+cmake, nasm und stress-ng\
 Python venv:
 ```
 cd build
