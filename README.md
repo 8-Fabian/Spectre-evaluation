@@ -9,12 +9,17 @@ sudo update-grub
 reboot
 ```
 
-## Evaluation ausführen
-Python venv erstellen
+## Voraussetzung
+cmake und nasm\
+Python venv:
 ```
 cd build
 python3 -m venv evaluation_venv
 source evaluation_venv/bin/activate
 pip install -r requirements.txt
+```
+
+## Evaluation ausführen
+```
 python3 ./evaluation.py
 ```
